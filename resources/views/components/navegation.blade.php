@@ -1,5 +1,12 @@
-<nav class="flex justify-between h-16 border bg-white">
+<nav class="flex justify-between h-16 bg-white">
         <div class="w-1/4 flex items-center ml-4">
+            
+            <button id="toggleButton"class="mr-3 p-2 hidden md:block focus:outline-none">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+
             <img 
                 src="https://web.sabbi.app/images/logo/SABBI2.png"  alt=""
                 class="h-11"
@@ -17,7 +24,7 @@
 
             <div class="flex items-center">
                 <img 
-                    class="w-[200px] h-14"
+                    class="w-[150px] h-14"
                     src="https://landing.academic.lat/assets/image/a32bde.jpeg" alt=""
                 >
                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
